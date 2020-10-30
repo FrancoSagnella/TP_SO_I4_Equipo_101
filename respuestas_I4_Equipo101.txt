@@ -1,0 +1,22 @@
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+	El color de fondo queda azul en el TESTING
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+	El color de fondo queda amarillo en el DESARROLLO
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+	El color quedo blanco, porque al hacer el merge como el archivo
+	habia sido modificado por alfa y beta genero un conflicto y muestra esto: 
+	* {
+  margin:100px;
+}
+body {
+<<<<<<< HEAD
+  background:yellow;
+=======
+  background:blue;
+>>>>>>> TESTING
+}
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+	En el master queda el favicon de BETA
