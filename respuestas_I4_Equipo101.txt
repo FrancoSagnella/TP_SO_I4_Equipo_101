@@ -20,3 +20,25 @@ body {
 
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 	En el master queda el favicon de BETA
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+	Si, BETA y GAMMA tuvieron problemas
+	
+
+F- ¿Qué problemas surgieron?
+	Tiraba un error porque el repositorio no estaba actualizado
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+	La solucion que encontramos fue hacer un pull, para actualizar el repositorio
+	y corregir los conflictos que generaba el archivo
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+	Con el push -f, nos permitia hacer el push directamente, sin tener que actualizar el repositorio
+	pero se sobreescribia con el archivo que ya estaba en el repositorio online, borrando las
+	ediciones que hizo el usuario anterior
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+	Se tuvo que hacer un merge para fusionarla con lo que agregamos en TESTING, y despues
+	modificamos los conflictos que se generaron para dejar los cambios que queriamos
